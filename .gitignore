@@ -1,0 +1,97 @@
+# Ignore build results
+/bin/
+/obj/
+/out/
+/build/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+*.nuget/
+/packages/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dotCover
+*.codecov
+*.coverage
+*.coveragexml
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.dmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore ASP.NET Core environment secrets
+secrets.json
+appsettings.Development.json
+appsettings.Staging.json
+
+# Ignore local tool configurations
+/.local/
+
+# Ignore Visual Studio Code settings
+/.vscode/
+
+# Ignore Rider settings
+.idea/
+
+# Ignore JetBrains Rider files
+*.sln.iml
+
+# Ignore SQL Server files
+*.mdf
+*.ldf
+*.bak
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore Linux specific files
+*~
+
+# Ignore Visual Studio
+.vs/
+*.ncb
+*.suo
+*.sdf
+*.dbmdl
+*.bak
+*.log
+*.tlog
+
+# Ignore Docker
+docker-compose.override.yml
+
+# Ignore generated documentation
+*.docx
+*.pdf
+*.doc
+*.html
+
+# Ignore npm package files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore Ruby files
+*.gem
+*.rbenv/
+*.rvm/

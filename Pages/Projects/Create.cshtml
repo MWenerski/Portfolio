@@ -1,0 +1,38 @@
+@page
+@model PortfolioApp.Pages.Projects.CreateModel
+
+<h2>Create Project</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Project.Title"></label>
+        <input asp-for="Project.Title" class="form-control" />
+        <span asp-validation-for="Project.Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Project.Description"></label>
+        <textarea asp-for="Project.Description" class="form-control"></textarea>
+        <span asp-validation-for="Project.Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Project.GitLink"></label>
+        <input asp-for="Project.GitLink" class="form-control" />
+        <span asp-validation-for="Project.GitLink" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Project.PictureUrl1"></label>
+        <input asp-for="Project.PictureUrl1" class="form-control" />
+        <span asp-validation-for="Project.PictureUrl1" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Project.PictureUrl2"></label>
+        <input asp-for="Project.PictureUrl2" class="form-control" />
+        <span asp-validation-for="Project.PictureUrl2" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

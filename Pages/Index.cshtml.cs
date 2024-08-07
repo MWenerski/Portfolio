@@ -1,5 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using PortfolioApp.Data;
+using PortfolioApp.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
 
 namespace PortfolioApp.Pages;
 
